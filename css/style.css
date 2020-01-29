@@ -4,3 +4,8 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+/************Footer***********/
+footer ul {
+  list-style-type: none;
+}
