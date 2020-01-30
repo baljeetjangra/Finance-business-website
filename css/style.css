@@ -37,6 +37,26 @@ ul {
 a {
   text-decoration: none !important;
 }
+.section-heading {
+  text-align: center;
+  margin-bottom: 5em;
+}
+.section-heading h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #1e1e1e;
+}
+.section-heading em {
+  color: #3291c9;
+  font-style: normal;
+}
+.section-heading span {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #666666;
+  margin-top: 1em;
+}
+
 h1,
 h2,
 h3,
@@ -45,8 +65,9 @@ h5,
 h6 {
   margin: 0;
 }
+
 /**************************buttons**************/
-.banner-button {
+a.banner-button {
   text-transform: uppercase;
   color: white;
   font-size: 0.8rem;
@@ -54,6 +75,28 @@ h6 {
   background-color: #3291c9;
   padding: 1em 2.2em;
   border-radius: 1.6em;
+  transition: all 0.3s;
+}
+a.banner-button:hover {
+  color: #3291c9;
+  background-color: white;
+}
+a.request-form-btn {
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background-color: #3291c9;
+  padding: 0.8em 2.2em;
+  border-radius: 1.6em;
+  border: 2px solid white;
+  display: inline-block;
+  margin: 0.6em 0;
+  transition: all 0.3s;
+}
+a.request-form-btn:hover {
+  color: #3291c9 !important;
+  background-color: white !important;
 }
 /*****************Sub Header******************/
 .sub-header {
@@ -145,6 +188,12 @@ header {
   top: 50%;
   left: 20%;
   transform: translate(-20%, -50%);
+  color: white;
+}
+/**********************Request form*************************/
+.request-form {
+  background-color: #3291c9;
+  padding: 2em;
   color: white;
 }
 
