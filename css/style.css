@@ -7,6 +7,26 @@ body {
 }
 
 /*******Typography************/
+/*Banner*/
+.text-content h6 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #3291c9;
+  padding-bottom: 0.5em;
+}
+.text-content h4 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 0.5em;
+}
+.text-content p {
+  font-weight: 700;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-bottom: 2em;
+}
 
 /************Layout***********/
 ul {
@@ -17,27 +37,128 @@ ul {
 a {
   text-decoration: none !important;
 }
-li {
-  margin: 0.5em 1em 0 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+/**************************buttons**************/
+.banner-button {
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background-color: #3291c9;
+  padding: 1em 2.2em;
+  border-radius: 1.6em;
 }
 /*****************Sub Header******************/
 .sub-header {
   background-color: #3291c9;
   color: white;
+  height: 40px;
+  line-height: 39px;
+  font-size: 1em;
+  font-weight: 600;
 }
-
 .left-info,
 .right-icons {
   display: flex;
+}
+/*Left-info*/
+.left-info li {
+  border-left: 1px solid whitesmoke;
+  padding: 0 0.8em;
+}
+.left-info li:last-child {
+  border-right: 1px solid whitesmoke;
+}
+.left-info i {
+  padding-right: 0.5em;
+}
+/*Right Icons*/
+.right-icons {
+  justify-content: flex-end;
 }
 .right-icons a {
   color: white;
   font-size: 18px;
 }
-.right-icons {
-  justify-content: flex-end;
+.right-icons i {
+  font-size: 16px;
+}
+.right-icons li {
+  width: 46px;
+  text-align: center;
+  border-left: 1px solid whitesmoke;
+}
+.right-icons li:last-child {
+  border-right: 1px solid whitesmoke;
+}
+/****************************Header***********************/
+header {
+  position: absolute;
+  width: 100%;
+  padding: 1em 0;
 }
 
+.navbar-brand h2 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.navbar li {
+  padding: 0 0.9em;
+}
+.navbar-nav a {
+  color: white;
+  font-weight: 600;
+}
+.slide .img-fill {
+  height: 95vh;
+}
+
+.slide1 .img-fill {
+  background: url("../Images/slide1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide2 .img-fill {
+  background: url("../Images/slide2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide3 .img-fill {
+  background: url("../Images/slide3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Slider text content*/
+.slider .text-content {
+  position: relative;
+  width: 40%;
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+  color: white;
+}
+
+/*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
 /************Footer***********/
 footer ul {
   list-style-type: none;
