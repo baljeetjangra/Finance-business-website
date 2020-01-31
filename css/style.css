@@ -1,3 +1,6 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
 html {
   overflow-x: hidden;
 }
@@ -98,6 +101,21 @@ a.request-form-btn:hover {
   color: #3291c9 !important;
   background-color: white !important;
 }
+
+.filled-btn {
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background-color: #3291c9;
+  padding: 1em 2.2em;
+  border-radius: 1.6em;
+  transition: all 0.3s;
+}
+.filled-btn:hover {
+  color: #3291c9;
+  background-color: white;
+}
 /*****************Sub Header******************/
 .sub-header {
   background-color: #3291c9;
@@ -166,7 +184,7 @@ header {
 }
 
 .slide1 .img-fill {
-  background: url("../Images/slide1.jpg");
+  background: url("../Images/women-1209678_1280.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -176,7 +194,7 @@ header {
   background-size: cover;
 }
 .slide3 .img-fill {
-  background: url("../Images/slide3.jpg");
+  background: url("../Images/office-865091_1280.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -196,7 +214,99 @@ header {
   padding: 2em;
   color: white;
 }
-
+/***********************Services****************************/
+.services {
+  margin-top: 7em;
+}
+.service-item {
+  background-color: #f3f3f3;
+}
+.service-item img {
+  min-width: 200px;
+  width: 100%;
+}
+.service-item .service-content {
+  padding: 1em 0 0 1.5em;
+}
+.service-content h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.5em 0;
+}
+.service-content p {
+  line-height: 2em;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  color: #666666;
+}
+.service-content a.filled-btn {
+  display: inline-block;
+  margin: 1em 0 2em 0;
+}
+/**********************fun facts*****************************/
+.fun-facts {
+  margin-top: 7em;
+  background-image: url("../Images/fun-facts-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 6em 0;
+  position: relative;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
+}
+.left-content span {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.left-content h2 {
+  padding: 0.5em 0 1.5em 0;
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+.left-content em {
+  display: inline-block;
+  font-style: normal;
+  color: #3291c9;
+}
+.left-content p {
+  letter-spacing: 1px;
+  line-height: 1.8em;
+  padding-bottom: 2em;
+}
+/*right- content*/
+.fun-facts .right-content {
+  margin-top: 3em;
+}
+.count-content {
+  background: #666666;
+  margin: 0 2em 2em 0;
+  text-align: center;
+  padding: 2.2em;
+}
+.count-digit {
+  font-size: 2rem;
+  color: #1283c5;
+  font-weight: 600;
+  padding-bottom: 0.3em;
+}
+.count-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+/*********************************More info*******************/
+.more-info {
+  margin-top: 7em;
+}
+.more-info-content {
+  background-color: #f3f3f3;
+}
+.more-info img {
+  min-width: 200px;
+  width: 100%;
+}
 /*
 *
 *
