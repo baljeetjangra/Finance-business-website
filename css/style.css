@@ -442,6 +442,9 @@ footer {
   color: #fff;
   padding: 4em 0;
 }
+.footer-item {
+  margin-bottom: 2em;
+}
 .footer-item h4 {
   font-weight: 600;
   font-size: 1.2em;
@@ -482,6 +485,9 @@ footer a:hover {
 }
 footer ul {
   list-style-type: none;
+}
+.last-item {
+  margin-bottom: 0;
 }
 .last-item form {
   text-align: center;
@@ -572,6 +578,47 @@ footer ul {
 .fun-facts .filled-btn {
   display: inline-block;
   margin-bottom: 2em;
+}
+/*
+=================================================================
+                             serrvices
+=================================================================
+*/
+.our-services {
+  margin-top: 7em;
+}
+.our-services li {
+  background-color: #3291c9;
+  margin-bottom: 2em;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.our-services li a {
+  color: #000000;
+  font-weight: 600;
+}
+.our-services li a:hover {
+  color: white;
+}
+.our-services img {
+  display: block;
+  width: 80%;
+  min-width: 200px;
+}
+
+.tab-content {
+  /* display: none; */
+  margin-bottom: 2em;
+}
+.tab-content h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1em 0;
+}
+.tab-content p {
+  font-size: 0.9em;
+  color: #666666;
 }
 /*
 =================================================================
