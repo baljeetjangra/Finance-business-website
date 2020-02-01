@@ -31,6 +31,9 @@ body {
   padding-bottom: 2em;
 }
 
+span {
+  text-transform: uppercase;
+}
 /************Layout***********/
 ul {
   list-style: none;
@@ -115,6 +118,23 @@ a.request-form-btn:hover {
 .filled-btn:hover {
   color: #3291c9;
   background-color: white;
+}
+.callback-form button {
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background-color: #3291c9;
+  padding: 0.8em 2.2em;
+  border-radius: 1.6em;
+  border: 2px solid white;
+  display: inline-block;
+  margin: 0.6em 0;
+  transition: all 0.3s;
+}
+.callback-form button:hover {
+  color: #3291c9 !important;
+  background-color: white !important;
 }
 /*****************Sub Header******************/
 .sub-header {
@@ -307,18 +327,94 @@ header {
   min-width: 200px;
   width: 100%;
 }
-/*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
+.more-info .right-content {
+  padding: 3em 0 0 2em;
+}
+.right-content span {
+  display: inline-block;
+  padding-bottom: 1em;
+}
+.right-content h2 {
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+.right-content em {
+  font-style: normal;
+  color: #3291c9;
+}
+.right-content p {
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  margin-bottom: 3em;
+}
+/*******************************Testimonial***********************/
+.testimonial {
+  margin-top: 7em;
+  background-color: #f3f3f3;
+}
+.testimonial .section-heading {
+  padding-top: 4em;
+}
+.testimonial-item {
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+.testimonial-img {
+  padding: 1em;
+}
+.testimonial-img img {
+  border-radius: 50%;
+}
+.testimonial-inner {
+  background-color: white;
+  padding: 1em;
+}
+.testimonial-inner h4 {
+  font-weight: 600;
+}
+.testimonial-inner span {
+  color: #1283c5;
+  font-weight: 600;
+}
+.testimonial-inner p {
+  color: #666666;
+  font-size: 0.85rem;
+}
+/************************************call back form*************************/
+.callback-form {
+  margin-top: 7em;
+}
+.callback-form .contact-form {
+  background-color: #3291c9;
+  border-radius: 0.5em;
+}
+.callback-form .contact-form form {
+  padding: 4em 4em;
+  text-align: center;
+}
+.callback-form input {
+  border: none;
+  border-radius: 2em;
+  padding: 0 1em;
+  font-size: 0.9rem;
+  color: #6a6a6a;
+}
+
+.callback-form textarea {
+  border: none;
+  border-radius: 2em;
+  margin: 3em 0;
+  font-size: 0.9rem;
+  color: #6a6a6a;
+
+  padding: 1em 1.5em;
+}
+
 /************Footer***********/
+footer {
+  margin-top: 7em;
+}
 footer ul {
   list-style-type: none;
 }
