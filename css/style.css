@@ -71,7 +71,34 @@ h5,
 h6 {
   margin: 0;
 }
-
+.img-fill {
+  height: 95vh;
+}
+/*****************secondary banner***************/
+.s-banner .img-fill {
+  background: url("../Images/s-banner.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
+}
+.s-banner-content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.s-banner-content h4 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.s-banner-content span {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
 /**************************buttons**************/
 a.banner-button {
   text-transform: uppercase;
