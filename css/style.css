@@ -136,6 +136,21 @@ a.request-form-btn:hover {
   color: #3291c9 !important;
   background-color: white !important;
 }
+footer form button {
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background-color: #3291c9;
+  padding: 1em 2.2em;
+  border-radius: 1.6em;
+  transition: all 0.3s;
+  border: none;
+}
+footer form button:hover {
+  color: #3291c9;
+  background-color: white;
+}
 /*****************Sub Header******************/
 .sub-header {
   background-color: #3291c9;
@@ -184,6 +199,7 @@ header {
   position: absolute;
   width: 100%;
   padding: 1em 0;
+  z-index: 999;
 }
 
 .navbar-brand h2 {
@@ -204,7 +220,7 @@ header {
 }
 
 .slide1 .img-fill {
-  background: url("../Images/women-1209678_1280.jpg");
+  background: url("../Images/slide1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -214,7 +230,7 @@ header {
   background-size: cover;
 }
 .slide3 .img-fill {
-  background: url("../Images/office-865091_1280.jpg");
+  background: url("../Images/slide3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -240,7 +256,9 @@ header {
 }
 .service-item {
   background-color: #f3f3f3;
+  margin-bottom: 2em;
 }
+
 .service-item img {
   min-width: 200px;
   width: 100%;
@@ -330,6 +348,10 @@ header {
 .more-info .right-content {
   padding: 3em 0 0 2em;
 }
+.more-info a.filled-btn {
+  display: inline-block;
+  margin-bottom: 2em;
+}
 .right-content span {
   display: inline-block;
   padding-bottom: 1em;
@@ -393,10 +415,12 @@ header {
   padding: 4em 4em;
   text-align: center;
 }
+
 .callback-form input {
   border: none;
   border-radius: 2em;
   padding: 0 1em;
+  margin-bottom: 1em;
   font-size: 0.9rem;
   color: #6a6a6a;
 }
@@ -414,7 +438,171 @@ header {
 /************Footer***********/
 footer {
   margin-top: 7em;
+  background-color: #232323;
+  color: #fff;
+  padding: 4em 0;
+}
+.footer-item h4 {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.footer-item p {
+  font-size: 0.9em;
+}
+.social-icons {
+  display: flex;
+  margin-top: 2em;
+}
+.social-icons li a {
+  width: 34px;
+  height: 34px;
+  font-size: 1.2em;
+  line-height: 34px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 1em;
+  text-align: center;
+  transition: all 0.3s;
+}
+.social-icons li a:hover {
+  background-color: #3291c9;
+}
+.social-icons i {
+  color: #000000;
+  padding: 0.5em;
+  border-radius: 50%;
+}
+footer a {
+  color: #fff;
+  font-size: 0.9em;
+}
+footer a:hover {
+  color: #3291c9;
+  transition: all 0.3s;
 }
 footer ul {
   list-style-type: none;
+}
+.last-item form {
+  text-align: center;
+}
+.last-item form input {
+  margin-bottom: 1em;
+  font-size: 0.9em;
+  background-color: #343434;
+  border: none;
+  color: #fff;
+  border-radius: 5em;
+  padding: 0 1em;
+}
+.last-item form input:focus {
+  background-color: #343434;
+  color: #aaa;
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+.last-item form textarea {
+  margin-bottom: 1em;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 1em;
+  padding: 0.5em 1;
+
+  background-color: #343434;
+}
+.last-item form textarea:focus {
+  background-color: #343434;
+  color: #aaa;
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+/*******************Sub footer*************/
+.sub-footer {
+  background-color: #343434;
+  color: #fff;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+/*
+=====================================================================
+                    About Page                                     
+=======================================================================
+*/
+/*****************************more-info******************/
+.about-page .order2 {
+  order: 2;
+}
+.about-page .order1 {
+  order: 1;
+}
+/*************************team*********************/
+.team {
+  margin-top: 7em;
+  padding: 4em 0;
+  background-color: #f3f3f3;
+}
+.member-item {
+  background-color: #fff;
+  margin-bottom: 2em;
+}
+.member-item img {
+  width: 100%;
+  min-width: 150px;
+}
+.member-content {
+  padding: 1em;
+}
+.member-content h4 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.member-content span {
+  color: #3291c9;
+  font-size: 0.9rem;
+}
+.member-content p {
+  margin-top: 1em;
+  color: #666666;
+  font-size: 0.9rem;
+}
+/***************service***************/
+.fun-facts .filled-btn {
+  display: inline-block;
+  margin-bottom: 2em;
+}
+/*
+=================================================================
+                             contact
+=================================================================
+*/
+.contact-info {
+  margin-top: 7em;
+  text-align: center;
+}
+.contact-item {
+  background-color: #f3f3f3;
+  margin-bottom: 2em;
+}
+.contact-item i {
+  font-size: 5rem;
+  color: #3291c9;
+  padding: 0.3em 0;
+}
+.contact-item h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.contact-item p {
+  padding: 0 1em;
+  color: #666666;
+}
+.contact-item a {
+  display: inline-block;
+  padding: 1em 0;
+}
+#map {
+  margin-top: 7em;
 }
